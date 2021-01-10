@@ -23,9 +23,6 @@ head(df)
 library(dplyr)
 ```
 
-
-
-
 ```{r}
 df1$demographic = mutate(df1$demographic,hastalıkyas = case_when(df1$demographic$age_at_index<=17~"Ergen yaş aralığı",
 df1$demographic$age_at_index>18 & df1$demographic$age_at_index<=65~"Genç yaş aralığı",
@@ -49,5 +46,9 @@ table(df1$demographic$hastalıkyas)
 
 fjfjgfjkgfkmgkmgkmhkm
 şalsmşalmfdmsldfmşsldmfşsldmgşdlfmgdlkfngdf
+```
+
+```{r}
+#bi daha deniyim
 ```
 
