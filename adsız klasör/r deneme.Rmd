@@ -41,5 +41,10 @@ table(df1$demographic$age_at_index)
 
 
 table(df1$demographic$hastalıkyas)
+
+
+
+
+şalsmşalmfdmsldfmşsldmfşsldmgşdlfmgdlkfngdf
 ```
 
