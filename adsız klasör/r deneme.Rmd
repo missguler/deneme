@@ -18,4 +18,5 @@ head(df)
 #deneme yapalım
 #kegrmgk
 #sude ezüükk
+#sude kalp
 ```
