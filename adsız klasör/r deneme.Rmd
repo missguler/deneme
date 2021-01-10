@@ -15,5 +15,6 @@ df3<-fromJSON("Desktop/ ist yazılım veri/genes.2021-01-07.json")
 
 df2<-fromJSON("Desktop/ ist yazılım veri/mutations.2021-01-07.json")
 head(df)
+#deneme yapalım
 ```
 
