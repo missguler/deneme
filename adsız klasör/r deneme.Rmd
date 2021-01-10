@@ -5,6 +5,7 @@ date: "07 01 2021"
 output: pdf_document
 ---
 
+
 ```{r}
 library(jsonlite)
 df<-fromJSON("Desktop/ ist yazılım veri/clinical.cases_selection.2021-01-07.json")
@@ -15,8 +16,18 @@ df3<-fromJSON("Desktop/ ist yazılım veri/genes.2021-01-07.json")
 
 df2<-fromJSON("Desktop/ ist yazılım veri/mutations.2021-01-07.json")
 head(df)
-#deneme yapalım
-#kegrmgk
-#sude ezüükk
-#sude kalp
+
 ```
+
+
+
+```{r}
+#içince veri bulunmayan sütunları yani gereksiz sütunları çıkardım.
+df1$demographic$weeks_gestation_at_birth <- NULL
+
+df1$demographic$premature_at_birth <- NULL
+df1$demographic$cause_of_death <- NULL
+
+```
+
+
